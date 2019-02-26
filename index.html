@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Генератор карт</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+</head>
+<body>
+<header> 
+   <h1 class = "title" >Card generator</h1>
+</header>
+<div class="center">
+<div class="Ilabel">Номер</div> <input type="text" class="input_text" id="numb" name="ccp" value="" style="width: 175px" placeholder="xxxx xxxx xxxx xxxx" maxlength="16">
+<br>
+<div class="Ilabel">Добавить</div> <div class="input_text s"><label>Срок карты<input type="checkbox" id="expdat" name="expdat" checked></label><label>CCV2<input type="checkbox" id="ccv" name="ccv" checked></label></div>
+<br>
+<div class="Ilabel">Количество</div>   <input type="text" class="input_text" id="amount" name="ccp" value="10" style="width: 175px"  maxlength="2">
+<br>
+<a class="Lbutton"  name="gerar" id="button">Generate</a>
+<br>
+<textarea class="textarea" name="output2" id="output2" rows="15" readonly="readonly"></textarea>
+</div>
+<script defer="" src="js/jquery-3.3.1.min.js"></script>
+<script defer="" src="js/app.js"></script>
+</body>
+</html>

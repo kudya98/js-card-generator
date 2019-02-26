@@ -1,0 +1,128 @@
+html {
+  width: 100%;
+  background-color:#202026;
+    font-size: 19px;
+
+}
+.title{
+	    font-size: 2rem;
+	    color: #C0C77E;
+    padding: 15px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0px 0px 15px #C0C77E;
+    text-align: center;
+}
+.center{
+	width:70%;
+	 margin:auto;
+	 text-align: center;
+}
+.s {
+    margin-left: -5px;
+    background: #202026;
+    padding: 5.5px;
+    display:inline-block;
+
+}
+.input_text {
+	font-family: 'FacileSans', sans-serif;
+    padding: 6px;
+    border: 0;
+    border-bottom: 1px solid #C0C77E;
+    border-right: 1px solid #C0C77E;
+    border-top: 1px solid #C0C77E;
+    border-radius: 0 5px 5px 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 18px rgba(192, 199, 126, .9);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 18px rgba(192, 199, 126, .9);
+    vertical-align: bottom;
+    outline: none;
+    font-size: 14px;
+    color: #C0C77E;
+    background-color: #202026;
+}
+
+.Ilabel {
+	 font-family: 'FacileSans', sans-serif;
+	 font-size:17px;
+	display:inline-block;
+    background-color: #202026;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #C0C77E;
+    color: #C0C77E;
+    border-color: #C0C77E;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(192, 199, 126, .9);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(192, 199, 126, .9);
+}
+.Lbutton{
+	margin-top:50px;
+	cursor:pointer;
+	 font-family: 'Orbitron', sans-serif;
+	text-decoration: none;
+    display: inline-block;
+    background-color: #202026;
+    padding: 50px;
+     font-size: 22px;
+    border-radius: 5px 0 0 5px;
+    border: 2px solid #C0C77E;
+    color: #C0C77E;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(192, 199, 126, .9);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(192, 199, 126, .9);
+}
+.Lbutton:link{
+	
+    border: 2px solid #C0C77E;
+}
+
+.Lbutton:hover{
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 66px rgba(192, 199, 126, .9);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 66px rgba(192, 199, 126, .9);
+}
+.Lbutton:active{
+border: 2px solid #C0C77E; 
+}
+textarea {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 18px;
+    color: #C0C77E;
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 2px;
+
+}
+
+.textarea{
+	margin-top:50px;
+	 background-color: #202026;
+	 width: 100%;
+	  border-radius: 5px 0 0 5px;
+    border: 2px solid #C0C77E;
+        overflow-x: hidden;
+    overflow-y: scroll;
+}
+.textarea::-webkit-scrollbar {
+    width: 10px;
+}
+.textarea::-webkit-scrollbar-thumb {
+    background: #C0C77E !important;
+}
+
+.textarea:focus{
+ outline: 0;
+}
+@font-face {
+font-family: "FacileSans"; 
+src: url("../fonts/12260.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
